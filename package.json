@@ -11,15 +11,20 @@
   },
   "dependencies": {
     "bootstrap": "^4.6.0",
+    "connect-flash": "^0.1.1",
     "cookie-parser": "^1.4.5",
     "debug": "~2.6.9",
     "ejs": "~2.6.1",
     "express": "~4.16.1",
+    "express-session": "^1.17.1",
     "font-awesome": "^4.7.0",
     "http-errors": "~1.6.3",
     "jquery": "^3.6.0",
     "mongoose": "^5.12.5",
     "morgan": "~1.9.1",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^6.1.0",
     "popper.js": "^1.16.1"
   },
   "description": "Crud Demo",
@@ -27,7 +32,12 @@
   "author": "Samuel",
   "license": "ISC",
   "devDependencies": {
-    "@types/mongoose": "^5.10.5"
+    "@types/connect-flash": "0.0.36",
+    "@types/express-session": "^1.17.3",
+    "@types/mongoose": "^5.10.5",
+    "@types/passport": "^1.0.6",
+    "@types/passport-local": "^1.0.33",
+    "@types/passport-local-mongoose": "^4.0.13"
   },
   "repository": {
     "type": "git",
